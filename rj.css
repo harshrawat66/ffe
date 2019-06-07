@@ -58,17 +58,14 @@ img {vertical-align: middle; align-content: center; }
   animation-duration: 1.5s;
 }
 
-@-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.padt20{
+  padding-top: 20px ;
 }
 
-@keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+.padt20:last-child{
+  padding-bottom: 50px ;
 }
 
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+.text-hard{
+  font-size: 25px ;
 }
