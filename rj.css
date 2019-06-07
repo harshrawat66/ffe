@@ -1,3 +1,7 @@
+*{
+  font-family: 'Crimson Text', serif;
+}
+
 #logorow{
   margin-top: -280px ;
 }
@@ -59,13 +63,25 @@ img {vertical-align: middle; align-content: center; }
 }
 
 .padt20{
-  padding-top: 20px ;
+  margin-bottom: 20px ;
+  border-radius:10px;
 }
 
 .padt20:last-child{
-  padding-bottom: 50px ;
+  margin-bottom: 50px ;
 }
 
 .text-hard{
   font-size: 25px ;
+}
+
+#back{
+  position: relative;
+  z-index: -1;
+  opacity: 0.1;
+  width: 10% ;
+}
+
+.head{
+  font-weight: 600 ;
 }
