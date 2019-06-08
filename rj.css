@@ -2,6 +2,10 @@
   font-family: 'Crimson Text', serif;
 }
 
+.main{
+  margin-top: -11%;
+}
+
 #logorow{
   margin-top: -280px ;
 }
