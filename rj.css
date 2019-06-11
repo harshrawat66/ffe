@@ -125,3 +125,13 @@ ul{
 li{
   font-weight: bold ;
 }
+
+.navbar{
+  box-shadow: none ;
+  border-radius: 0px 0px 10px 10px ;
+}
+
+hr{
+  width: 400px ;  
+}
+
